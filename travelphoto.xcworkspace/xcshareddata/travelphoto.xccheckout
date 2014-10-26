@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F6857C6A-3C98-4804-904F-346EDBABAD84</string>
+	<key>IDESourceControlProjectName</key>
+	<string>travelphoto</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52371E00944316817B84F3A327BCF0F3A17F39ED</key>
+		<string>https://github.com/k2works/travelphoto.git</string>
+		<key>AC5E40EB2EFA58FB7F4BA8E6568E6AB7CE6C4C64</key>
+		<string>github.com:k2works/rails_ios_appdev.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>travelphoto.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52371E00944316817B84F3A327BCF0F3A17F39ED</key>
+		<string>..</string>
+		<key>AC5E40EB2EFA58FB7F4BA8E6568E6AB7CE6C4C64</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/k2works/travelphoto.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52371E00944316817B84F3A327BCF0F3A17F39ED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC5E40EB2EFA58FB7F4BA8E6568E6AB7CE6C4C64</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52371E00944316817B84F3A327BCF0F3A17F39ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
