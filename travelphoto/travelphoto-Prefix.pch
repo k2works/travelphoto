@@ -13,20 +13,14 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "DCIntrospect.h"
-#import "GHUnitIOS"
-#import "BlocksKit
-#import "Underscore.m"
-#import "AQGridView"
-#import "QuickDialog"
-#import "JASidePanels"
-#import "OCCalendar"
-#import "SDWebImage"
-#import "SVProgressHUD"
-#import "Reachability"
-#import "AFNetworking"
-#import "MagicalRecord"
-#import "NoticeView"
-#import "ELCImagePickerController"
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>//
+    #import <CoreData/CoreData.h>//
+
+    #define MR_SHORTHAND
+    #import "CoreData+MagicalRecord.h"
+#endif
 
 #endif
