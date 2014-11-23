@@ -25,6 +25,10 @@
 		57F497821A21A46700D36CC3 /* TPTravelShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F497811A21A46700D36CC3 /* TPTravelShowController.m */; };
 		57F497851A21A4AD00D36CC3 /* TPTravelPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F497841A21A4AD00D36CC3 /* TPTravelPhotoController.m */; };
 		57F497891A21A51400D36CC3 /* TPFriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F497881A21A51400D36CC3 /* TPFriendController.m */; };
+		57F497A81A21C2BB00D36CC3 /* _Travel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F497A11A21C2BB00D36CC3 /* _Travel.m */; };
+		57F497A91A21C2BB00D36CC3 /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F497A31A21C2BB00D36CC3 /* _User.m */; };
+		57F497AA1A21C2BB00D36CC3 /* Travel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F497A51A21C2BB00D36CC3 /* Travel.m */; };
+		57F497AB1A21C2BB00D36CC3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F497A71A21C2BB00D36CC3 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,14 @@
 		57F497871A21A51400D36CC3 /* TPFriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPFriendController.h; sourceTree = "<group>"; };
 		57F497881A21A51400D36CC3 /* TPFriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPFriendController.m; sourceTree = "<group>"; };
 		57F4978B1A21B1A000D36CC3 /* travelphoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "travelphoto-Prefix.pch"; sourceTree = "<group>"; };
+		57F497A01A21C2BB00D36CC3 /* _Travel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Travel.h; sourceTree = "<group>"; };
+		57F497A11A21C2BB00D36CC3 /* _Travel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Travel.m; sourceTree = "<group>"; };
+		57F497A21A21C2BB00D36CC3 /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _User.h; sourceTree = "<group>"; };
+		57F497A31A21C2BB00D36CC3 /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _User.m; sourceTree = "<group>"; };
+		57F497A41A21C2BB00D36CC3 /* Travel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Travel.h; sourceTree = "<group>"; };
+		57F497A51A21C2BB00D36CC3 /* Travel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Travel.m; sourceTree = "<group>"; };
+		57F497A61A21C2BB00D36CC3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		57F497A71A21C2BB00D36CC3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		9F4C7E4BDBDFEB304BBA1AF3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C78C28A927217B6D61E4CE27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -100,6 +112,7 @@
 		57A0A13419FBAF4800F8F171 = {
 			isa = PBXGroup;
 			children = (
+				57F4979F1A21C2BB00D36CC3 /* Model */,
 				57A0A13F19FBAF4800F8F171 /* travelphoto */,
 				57A0A15C19FBAF4800F8F171 /* travelphotoTests */,
 				57A0A13E19FBAF4800F8F171 /* Products */,
@@ -216,6 +229,22 @@
 				57F497881A21A51400D36CC3 /* TPFriendController.m */,
 			);
 			name = Friend;
+			sourceTree = "<group>";
+		};
+		57F4979F1A21C2BB00D36CC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57F497A01A21C2BB00D36CC3 /* _Travel.h */,
+				57F497A11A21C2BB00D36CC3 /* _Travel.m */,
+				57F497A21A21C2BB00D36CC3 /* _User.h */,
+				57F497A31A21C2BB00D36CC3 /* _User.m */,
+				57F497A41A21C2BB00D36CC3 /* Travel.h */,
+				57F497A51A21C2BB00D36CC3 /* Travel.m */,
+				57F497A61A21C2BB00D36CC3 /* User.h */,
+				57F497A71A21C2BB00D36CC3 /* User.m */,
+			);
+			name = Model;
+			path = travelphoto/Model;
 			sourceTree = "<group>";
 		};
 		6BCED295C258FF0EA06C6DDC /* Frameworks */ = {
@@ -369,11 +398,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F497A91A21C2BB00D36CC3 /* _User.m in Sources */,
 				57F497721A21A24300D36CC3 /* TPMyPageController.m in Sources */,
+				57F497AB1A21C2BB00D36CC3 /* User.m in Sources */,
 				57F4977C1A21A3AF00D36CC3 /* TPFriendTravelController.m in Sources */,
 				57A0A14619FBAF4800F8F171 /* AppDelegate.m in Sources */,
 				57F497791A21A37000D36CC3 /* TPTravelController.m in Sources */,
+				57F497A81A21C2BB00D36CC3 /* _Travel.m in Sources */,
 				57F497851A21A4AD00D36CC3 /* TPTravelPhotoController.m in Sources */,
+				57F497AA1A21C2BB00D36CC3 /* Travel.m in Sources */,
 				57F4976A1A21A16E00D36CC3 /* TPLoginController.m in Sources */,
 				57A0A14919FBAF4800F8F171 /* travelphoto.xcdatamodeld in Sources */,
 				57F497891A21A51400D36CC3 /* TPFriendController.m in Sources */,
