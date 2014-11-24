@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "JASidePanelController.h"
+#import "TPLeftMenuController.h"
+#import "TPMyPageController.h"
 
 @interface AppDelegate ()
 
@@ -18,9 +21,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
+    //self.window.backgroundColor = [UIColor whiteColor];
+    //[self.window makeKeyAndVisible];
+  
+  self.viewController = [[JASidePanelController alloc] init];
+  self.viewController.shouldDelegateAutorotateToVisiblePanel = NO;
+  
+  self.viewController.leftPanel = [[TPLeftMenuController alloc] init];
+  self.viewController.centerPanel = [[UINavigationController alloc] initWithRootViewController:[[TPMyPageController alloc] init]];
+  self.viewController.rightPanelContainer.hidden = YES;
+  
+  self.window.rootViewController = self.viewController;
+  [self.window makeKeyAndVisible];
+
     [MagicalRecord setupCoreDataStackWithStoreNamed:@"travelphoto.sqlite"];
     
     return YES;
