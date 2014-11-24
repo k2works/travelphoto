@@ -75,6 +75,14 @@
   return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+  NSDictionary *dic = @{@"CLASS": self.menuList[indexPath.row][1]};
+  [tableView deselectRowAtIndexPath:indexPath animated:YES];
+  
+  [[NSNotificationCenter defaultCenter] postNotificationName:TPShowPanel object:self userInfo:dic];
+}
+
 /*
 #pragma mark - Navigation
 

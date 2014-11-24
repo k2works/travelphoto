@@ -10,6 +10,7 @@
 		5772B5DE1A22CB2D00BA64CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772B5DD1A22CB2D00BA64CD /* Security.framework */; };
 		5772B5E11A22CC3700BA64CD /* TPUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772B5E01A22CC3700BA64CD /* TPUserInfo.m */; };
 		5772B5ED1A22E4AD00BA64CD /* TPLeftMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772B5EC1A22E4AD00BA64CD /* TPLeftMenuController.m */; };
+		5772B5FA1A22F48400BA64CD /* TPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772B5F91A22F48400BA64CD /* TPConstants.m */; };
 		5772E8FF19FCBB0E00B7D661 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772E8FE19FCBB0E00B7D661 /* QuartzCore.framework */; };
 		57A0A14319FBAF4800F8F171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0A14219FBAF4800F8F171 /* main.m */; };
 		57A0A14619FBAF4800F8F171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0A14519FBAF4800F8F171 /* AppDelegate.m */; };
@@ -51,6 +52,8 @@
 		5772B5E01A22CC3700BA64CD /* TPUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPUserInfo.m; sourceTree = "<group>"; };
 		5772B5EB1A22E4AD00BA64CD /* TPLeftMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLeftMenuController.h; sourceTree = "<group>"; };
 		5772B5EC1A22E4AD00BA64CD /* TPLeftMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLeftMenuController.m; sourceTree = "<group>"; };
+		5772B5F81A22F48400BA64CD /* TPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPConstants.h; sourceTree = "<group>"; };
+		5772B5F91A22F48400BA64CD /* TPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPConstants.m; sourceTree = "<group>"; };
 		5772E8FE19FCBB0E00B7D661 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		57A0A13D19FBAF4800F8F171 /* travelphoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelphoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A0A14119FBAF4800F8F171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				57A0A14019FBAF4800F8F171 /* Supporting Files */,
 				5772B5DF1A22CC3700BA64CD /* TPUserInfo.h */,
 				5772B5E01A22CC3700BA64CD /* TPUserInfo.m */,
+				5772B5F81A22F48400BA64CD /* TPConstants.h */,
+				5772B5F91A22F48400BA64CD /* TPConstants.m */,
 			);
 			path = travelphoto;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 				5772B5E11A22CC3700BA64CD /* TPUserInfo.m in Sources */,
 				57F497821A21A46700D36CC3 /* TPTravelShowController.m in Sources */,
 				57A0A14C19FBAF4800F8F171 /* ViewController.m in Sources */,
+				5772B5FA1A22F48400BA64CD /* TPConstants.m in Sources */,
 				57A0A14319FBAF4800F8F171 /* main.m in Sources */,
 				57F4977F1A21A3E200D36CC3 /* TPTravelCreateController.m in Sources */,
 				57F497761A21A28000D36CC3 /* TPSettingController.m in Sources */,

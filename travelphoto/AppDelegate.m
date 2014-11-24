@@ -35,8 +35,15 @@
   [self.window makeKeyAndVisible];
 
     [MagicalRecord setupCoreDataStackWithStoreNamed:@"travelphoto.sqlite"];
+  
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeSidePanelCenterController:) name:TPShowPanel object:nil];
     
     return YES;
+}
+
+- (void)changeSidePanelCenterController:(NSNotification *)notification{
+  NSDictionary *userInfo = [notification userInfo];
+  self.viewController.centerPanel = [[UINavigationController alloc] initWithRootViewController:[[NSClassFromString(userInfo[@"CLASS"]) alloc] init]];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
