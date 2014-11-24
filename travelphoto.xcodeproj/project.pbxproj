@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5772B5DE1A22CB2D00BA64CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772B5DD1A22CB2D00BA64CD /* Security.framework */; };
+		5772B5E11A22CC3700BA64CD /* TPUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772B5E01A22CC3700BA64CD /* TPUserInfo.m */; };
 		5772E8FF19FCBB0E00B7D661 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772E8FE19FCBB0E00B7D661 /* QuartzCore.framework */; };
 		57A0A14319FBAF4800F8F171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0A14219FBAF4800F8F171 /* main.m */; };
 		57A0A14619FBAF4800F8F171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0A14519FBAF4800F8F171 /* AppDelegate.m */; };
@@ -43,6 +45,9 @@
 
 /* Begin PBXFileReference section */
 		2ECA05EA6DF7323532828746 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5772B5DD1A22CB2D00BA64CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5772B5DF1A22CC3700BA64CD /* TPUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPUserInfo.h; sourceTree = "<group>"; };
+		5772B5E01A22CC3700BA64CD /* TPUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPUserInfo.m; sourceTree = "<group>"; };
 		5772E8FE19FCBB0E00B7D661 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		57A0A13D19FBAF4800F8F171 /* travelphoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelphoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A0A14119FBAF4800F8F171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5772B5DE1A22CB2D00BA64CD /* Security.framework in Frameworks */,
 				5772E8FF19FCBB0E00B7D661 /* QuartzCore.framework in Frameworks */,
 				57C928F3712E5F80C21E9D79 /* libPods.a in Frameworks */,
 			);
@@ -145,6 +151,8 @@
 				57A0A15019FBAF4800F8F171 /* Images.xcassets */,
 				57A0A14719FBAF4800F8F171 /* travelphoto.xcdatamodeld */,
 				57A0A14019FBAF4800F8F171 /* Supporting Files */,
+				5772B5DF1A22CC3700BA64CD /* TPUserInfo.h */,
+				5772B5E01A22CC3700BA64CD /* TPUserInfo.m */,
 			);
 			path = travelphoto;
 			sourceTree = "<group>";
@@ -250,6 +258,7 @@
 		6BCED295C258FF0EA06C6DDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5772B5DD1A22CB2D00BA64CD /* Security.framework */,
 				5772E8FE19FCBB0E00B7D661 /* QuartzCore.framework */,
 				C78C28A927217B6D61E4CE27 /* libPods.a */,
 			);
@@ -410,6 +419,7 @@
 				57F4976A1A21A16E00D36CC3 /* TPLoginController.m in Sources */,
 				57A0A14919FBAF4800F8F171 /* travelphoto.xcdatamodeld in Sources */,
 				57F497891A21A51400D36CC3 /* TPFriendController.m in Sources */,
+				5772B5E11A22CC3700BA64CD /* TPUserInfo.m in Sources */,
 				57F497821A21A46700D36CC3 /* TPTravelShowController.m in Sources */,
 				57A0A14C19FBAF4800F8F171 /* ViewController.m in Sources */,
 				57A0A14319FBAF4800F8F171 /* main.m in Sources */,

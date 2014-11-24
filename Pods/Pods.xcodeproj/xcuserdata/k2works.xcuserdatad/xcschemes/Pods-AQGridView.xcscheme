@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DAC64BBFA4B99FC4CBD2B1D"
+               BlueprintIdentifier = "AA57B212EB3828EF1D53537F"
                BuildableName = "libPods-AQGridView.a"
                BlueprintName = "Pods-AQGridView"
                ReferencedContainer = "container:Pods.xcodeproj">
